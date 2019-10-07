@@ -1,0 +1,20 @@
+
+.box {
+    border: 3px solid bisque;
+    width: 500px;
+  }
+  .poem {
+    padding-left :30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background: pink;
+    width: 200px;
+    position:relative;
+    top: 40px;
+    left: 20px;
+
+  }
+
+  

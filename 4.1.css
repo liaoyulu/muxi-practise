@@ -1,0 +1,22 @@
+.container{
+    border: 3px solid blue;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-content: center;
+}
+.little{
+    width: 500px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: auto;
+}
+.paragraph{
+    border: 3px solid green;
+    font-size: 30px;
+    width: 500px;
+    height: 40px;
+ }

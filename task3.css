@@ -1,0 +1,30 @@
+#header{
+  background-color: #cdd3de;
+}
+#content{
+  width:33.3%;
+  display:inline-block;
+  background-color: #f0b7c0;
+  clear:both;
+}
+#sidebar{
+  display:inline-block;
+  width:33.3%;
+  float:right;
+  background-color: #f0d2e6;
+}
+#sidebar2{
+ width:33.3%;
+  float:left;
+  background-color: #c3eedf;
+}
+#footer{
+  background-color: #f7f9c2;
+  position: fixed;
+  width: 100%;
+}
+#page{
+ 
+}
+
+

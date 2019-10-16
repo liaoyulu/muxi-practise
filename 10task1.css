@@ -1,0 +1,12 @@
+table {
+    border: 2px solid rgb(190,190,190);
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px  solid rgb(190,190,190);
+    padding: 10px 20px ;
+}
+th{
+    background-color:rgb(245,245,245);
+    text-align: left;
+}

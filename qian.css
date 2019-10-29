@@ -1,0 +1,175 @@
+body, div, ul, li, input, p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 0 none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #F4F4F4;
+}
+.header {
+
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ebebeb;
+    position: fixed;
+    margin-bottom: 100px;
+}
+
+.center{
+        background: #FFFFFF;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.inst{
+    height: 30px;
+    float: right;
+    line-height: 30px;
+}
+.search {
+    height: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.big{
+    width: 1000px;
+    height: 2350px;
+    margin: 0 auto;
+   
+}
+.left{
+    border: 1px solid #ebebeb;
+    width: 700px;
+    height: 1000px;
+    margin-top: 200px;
+}
+.content{
+ background:white;   
+ margin-bottom: 100px;
+ width: 700px;
+}
+.content-top{
+    display: flex;
+    align-items: center;
+     /*定义body的元素垂直居中*/
+    margin-bottom: 10px;
+    height: 60px;
+    width: 700px;
+    margin-left: 20px;
+}
+.needright{
+    margin-left: 400px;
+    margin-bottom:20px;
+    font-size: 30px;
+}
+.picture{
+    width: 700px;
+}
+.lovedown{
+    
+    width: 700px;
+    height:40px;
+}
+.comment{
+    margin-left: 20px;
+}
+.add{
+    width: 700px;
+    background-color: white;
+    border: 1px solid #ebebeb;
+}
+.add_comment{
+    display: flex;
+    align-items: center; 
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 100px;
+}
+.issue{
+    margin-left: 500px;
+    color: rgb(93, 127, 219);
+    opacity: 0.5;
+    height: 17px;
+    line-height: 17px;
+}
+.right {
+    height: 400px;
+    width: 250px;
+    margin-left: 10px;
+    float: right;
+    position:sticky;
+    top: 100px;
+    margin-top: 200px;
+    
+}
+.myself{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.attention{
+    border:1px solid #ebebeb;   
+    background-color: #FFFFFF;
+}
+
+.attentop{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.on{
+    float:right;
+    margin-right: 20px;
+}
+.attencon{
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;;
+}
+
+.attenyou{
+    border:1px solid  #ebebeb;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.grey{
+opacity: 0.5;
+}
+.right .people-photo{
+    width: 40px;
+    height: 40px;
+}
+.people-photo{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-right: 20px;
+    margin-top: 9px;}
+.name{
+    width: 150px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+.floatright{
+    margin-left: auto;
+}
+
+.interval{
+    margin-bottom:10px ;
+}
+.time{
+    opacity: 0.5;
+    font-size: 12px;
+}

@@ -1,9 +1,9 @@
 body, div, ul, li, input, p{
     margin: 0;
-    padding: 0;
-}
-img{
-    border: 0 none;
+    padding: 0;}
+    img
+    {
+ border: 0 none;
 }
 a{
     text-decoration: none;
@@ -11,17 +11,14 @@ a{
 body{
     background: #F4F4F4;
 }
-
 /* 基础设置*/
-.header-container{
+.header{
     width:100%;
     height:80px;
     background:rgba(255,255,255,1);
-    box-shadow:0px 2px 0px 0px rgba(238,238,238,1);
 }
+.header-center{
 
-.header{
-    background: #FFFFFF;
     height: 80px;
     width: 1000px;
     display:flex;
@@ -40,8 +37,8 @@ body{
     height:34px;
 }
 .logo-text{
-    width:52px;
-    height:52px;
+    margin-left: 12px;
+    font-size: 20px;
     text-align: center;
     line-height: 52px;
 }
@@ -53,13 +50,12 @@ body{
     height: 80px;
 }
 .header-tab-item{
-    width:40px;
-    height:75px;
-    font-size:20px;
-    font-family:PingFangSC-Medium,PingFang SC;
-    font-weight:500;
-    line-height:75px;
-    margin-left: 30px;
+    width: 70px;
+    height: 75px;
+    font-size: 20px;
+    border-top: 5px solid #FFFFFF;
+    line-height: 70px;
+    text-align: center;
 }
 .header-tab-item:hover{
     border-top: 5px solid rgba(244,67,54,1);
@@ -73,8 +69,6 @@ body{
     border:2px solid rgba(244,67,54,1);
     display: flex;
 }
-.search{
-    }
 .s-ipt{
     border: 0;
     width: 245px;
@@ -84,7 +78,10 @@ body{
     width:80px;
     height:30px;
     background:rgba(244,67,54,1);
+    text-align: center;
 }
+img.searchimg {
+    height: 30px;}
 .peoplephoto{
     width:40px;
     height:40px;
@@ -92,20 +89,14 @@ body{
 }
 .signout{
     font-size:14px;
-    font-family:PingFangSC-Medium,PingFang SC;
-    font-weight:500;
     color:rgba(255,255,255,1);
     line-height:30px;
     width:90px;
     height:30px;
     background:rgba(29,192,145,1);
-    border:2px solid rgba(29,192,145,1);
     text-align: center;
 }
 /*header结束*/
-.wrapper{
-
-}
 .container{
     width: 1000px;
     margin:0 auto;
@@ -118,13 +109,14 @@ body{
     width:1000px;
     height:400px;
     background:rgba(255,255,255,1);
-    box-shadow:0px 2px 0px 0px rgba(234,234,234,1);
     display: flex;
     justify-content: space-evenly;
 }
 .class-content{
-    margin-top: 40px;
-    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 357px;
 }
 .summeay{
     width:96px;
@@ -132,32 +124,20 @@ body{
     border:2px solid rgba(29,192,145,1);
     border-radius: 50%;
     font-size:36px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
     color:rgba(29,192,145,1);
     line-height:96px;
     text-align: center;
-    margin-bottom: 20px;
 }
 li{
-    width:112px;
-    height:40px;
     font-size:14px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
-    color:rgba(51,51,51,1);
-    line-height:20px;}
+    color:rgba(51,51,51,1);}
 li:hover{
-    width:112px;
-    height:40px;
     font-size:14px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
     color:rgba(244,67,54,1);
-    line-height:20px;
 } 
 .class-details{
-
+    border-right: solid 1px #E8E8E8;
+    width: 135px;
 }
 .plus-sign{
     width:25px;
@@ -165,8 +145,7 @@ li:hover{
     border:1px solid rgba(29,192,145,1);
     border-radius: 50%;
     position: relative;
-    top: 20px;
-    left: 28px;
+    margin: 0 auto;
 }
 .plus-sign::before{
     content: '';
@@ -185,17 +164,14 @@ li:hover{
 }
 .hotclass{
     width:1000px;
-    height:410px;
-    background:rgba(255,255,255,1);
-    box-shadow:0px 2px 0px 0px rgba(234,234,234,1);
+    height:410px;;
     margin-top: 20px;
+    background: #FFFFFF;
 }
 .module-title{
     width:1000px;
     height:25px;
     font-size:18px;
-    font-family:PingFangSC-Medium,PingFang SC;
-    font-weight:500;
     color:rgba(102,102,102,1);
     line-height:25px;
     padding-top: 20px;
@@ -205,45 +181,28 @@ li:hover{
     width: 1000px;
     height:20px;
     font-size:12px;
-    font-family:PingFangSC-Medium,PingFang SC;
-    font-weight:500;
     color:rgba(29,192,145,1);
     line-height:  20px;
     text-align:center;
 }
-.module-container{
-    width: 750px;
-    height: 210px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 150px;
-    padding-top: 20px;
-}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+margin-top:40px;}
 .rectangle1{
     width:140px;
     height:105px;
     border:2px solid rgba(29,192,145,1);
-    
+    text-align: center;
 }
 .rectangle1:hover{
     background-color: rgba(29,192,145,1);
 }
-.lessonname1{
-    width:144px;
-    height:40px;
-    font-size:14px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
-    color:rgba(51,51,51,1);
-    line-height:50px;
-    text-align: -webkit-center;
-}
+
 .rectangle2{
     width:140px;
     height:105px;
     font-size:48px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
     color:rgba(244,67,54,1);
     line-height:105px;
     text-align: center;
@@ -254,8 +213,6 @@ li:hover{
     height:355px;
     margin-top: 20px;
     background:rgba(255,255,255,1);
-    box-shadow:0px 2px 0px 0px rgba(234,234,234,1);
-    
 }
 .module-container2{
     width: 800px;
@@ -284,69 +241,47 @@ li:hover{
         height:105px;
         opacity:0.7;
         display: flex;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content:center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     }
 .lessonname2{ 
-    width:133px;
-    height:45px;
-    font-size:18px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
-    color:rgba(255,255,255,1);
-    line-height:25px;
-     
-}
-.teachername2{
-    font: size 14px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
-    color:rgba(255,255,255,1);
-    line-height:25px;
+    font-size:15px;
+    color:rgba(255,255,255,1);     
 }
 /**/
-.footer-container{
+.footer{
     width:100%;
     height:120px;
     background:rgba(51,51,51,1);
-    box-shadow:0px -2px 0px 0px rgba(238,238,238,1);
-    margin-bottom: 30px;
-    text-align: center;
 }
-.footer{
+.footer-center{
     width: 320px;
+    height: 120px;
     margin: 0 auto;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
 .rabbit2{
     border-bottom: 2px solid rgba(155,155,155,1);
     text-align:center;
     margin-bottom: 3px;
-    padding-top: 20px;
 }
 .xixixixi{
     display: flex;
     justify-content: center;
 }
 .muxistdio{
-    width:143px;
-    height:20px;
-    font-size:14px;
-    font-family:PingFangSC-Light,PingFang SC;
+  font-size:14px;
     font-weight:300;
     color:rgba(155,155,155,1);
-    line-height:20px;
     letter-spacing:4px;
     border-right: 3px solid #EA5A70;
     border-radius:2px;
+    padding-right: 7px;
 }
 .school{
-    width:140px;
-    height:20px;
-    font-size:14px;
-    font-family:PingFangSC-Light,PingFang SC;
-    font-weight:300;
+ font-size:14px;
     color:rgba(155,155,155,1);
-    line-height:20px;
     padding-left: 20px;
 }

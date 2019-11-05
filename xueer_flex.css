@@ -1,9 +1,9 @@
 body, div, ul, li, input, p{
     margin: 0;
     padding: 0;}
-    img
-    {
- border: 0 none;
+img
+{
+    border: 0 none;
 }
 a{
     text-decoration: none;
@@ -18,14 +18,12 @@ body{
     background:rgba(255,255,255,1);
 }
 .header-center{
-
     height: 80px;
     width: 1000px;
     display:flex;
     justify-content: space-between;
     align-items:center;
     margin: 0 auto;
-    
 }
 .header-left{
     height: 80px;
@@ -42,8 +40,7 @@ body{
     text-align: center;
     line-height: 52px;
 }
-.header-tab-container
-{
+.header-tab-container{
     display: flex;
 }
 .header-tab{
@@ -60,7 +57,6 @@ body{
 .header-tab-item:hover{
     border-top: 5px solid rgba(244,67,54,1);
     color:rgba(244,67,54,1);
-
 }
 .search-container{
     width:325px;
@@ -81,7 +77,8 @@ body{
     text-align: center;
 }
 img.searchimg {
-    height: 30px;}
+    height: 30px;
+}
 .peoplephoto{
     width:40px;
     height:40px;
@@ -130,11 +127,16 @@ img.searchimg {
 }
 li{
     font-size:14px;
-    color:rgba(51,51,51,1);}
+    color:rgba(51,51,51,1);
+}
 li:hover{
     font-size:14px;
     color:rgba(244,67,54,1);
 } 
+span{
+    font-size:12px;
+    color: darkgray;
+}
 .class-details{
     border-right: solid 1px #E8E8E8;
     width: 135px;
@@ -152,7 +154,7 @@ li:hover{
     border-top: 1px solid rgba(29,192,145,1);
     width: 25px;
     position: absolute;
-  top: 50%;
+    top: 50%;
 }
 .plus-sign::after{
     content: '';
@@ -160,7 +162,6 @@ li:hover{
     height: 25px;
     position: absolute;
     left: 50%;
-
 }
 .hotclass{
     width:1000px;
@@ -188,7 +189,8 @@ li:hover{
 table {
     border-collapse: collapse;
     margin: 0 auto;
-margin-top:40px;}
+    margin-top:40px;
+}
 .rectangle1{
     width:140px;
     height:105px;
@@ -198,7 +200,6 @@ margin-top:40px;}
 .rectangle1:hover{
     background-color: rgba(29,192,145,1);
 }
-
 .rectangle2{
     width:140px;
     height:105px;
@@ -217,34 +218,34 @@ margin-top:40px;}
 .module-container2{
     width: 800px;
     height: 140px;
-    display: flex;
-    margin-left: 127px;
+    margin: 0 auto;
     margin-top: 50px;
+    display: flex;
     justify-content: space-between;
 }
 .lesson-content:hover    .rabbit1 {
-        visibility: visible;
+    visibility: visible;
  } 
-     .rabbit1{
-        position: absolute;
-        visibility: hidden;
-        bottom: 96%;
-        left: 39%;
-    }
+ .rabbit1{
+    position: absolute;
+    visibility: hidden;
+    bottom: 96%;
+    left: 39%;
+}
 .lesson-content:hover{
     opacity: 1;
-    }
-    .lesson-content{
-        position: relative;
-        background:rgba(244,67,54,1);
-        width:175px;
-        height:105px;
-        opacity:0.7;
-        display: flex;
+}
+.lesson-content{
+    position: relative;
+    background:rgba(244,67,54,1);
+    width:175px;
+    height:105px;
+    opacity:0.7;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    }
+    text-align: center;	
+}
 .lessonname2{ 
     font-size:15px;
     color:rgba(255,255,255,1);     
@@ -266,13 +267,14 @@ margin-top:40px;}
     border-bottom: 2px solid rgba(155,155,155,1);
     text-align:center;
     margin-bottom: 3px;
+    width: 300px;
 }
 .xixixixi{
     display: flex;
     justify-content: center;
 }
 .muxistdio{
-  font-size:14px;
+    font-size:14px;
     font-weight:300;
     color:rgba(155,155,155,1);
     letter-spacing:4px;
